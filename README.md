@@ -10,9 +10,9 @@ You can use L1/L2 regularization, Relu activation for hidden layers, Sigmoid/Sof
 
 For training use: 
 
-                  L_layer_model(X, y,Output_classes, layers_dims=[X.shape[1],6,6,np.unique(y).shape[0]], 
-                                predict_result=False,activation_type="multiclass", reg_type="l2",keep_prob=0.7, 
-                                mini_batch_size=10, n=1, learning_rate = 0.001,lambd=0.01, num_epochs =500)
+L_layer_model(X, y,Output_classes, layers_dims=[X.shape[1],6,6,np.unique(y).shape[0]], 
+              predict_result=False,activation_type="multiclass", reg_type="l2",keep_prob=0.7, 
+              mini_batch_size=10, n=1, learning_rate = 0.001,lambd=0.01, num_epochs =500)
 
                        
                        
