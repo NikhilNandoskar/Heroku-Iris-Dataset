@@ -5,7 +5,7 @@ API for Iris Dataset
 Iris.py contains data preprocessing and training Logistic Regression model for predicting category of flower.
 
 LR_Regularization_Dropout_Adam.py is a Logistic Regression model built from scratch using numpy.
-It is the extension of the assignment provided by Dr. Andrew Ng in his Specialization Course  
+It is the extension of the assignment provided by Dr. Andrew Ng in his Specialization Course.  
 You can use L1/L2 regularization, Relu activation for hidden layers, Sigmoid/Softmax for final layer, Dropout.
 
 For training use: 
